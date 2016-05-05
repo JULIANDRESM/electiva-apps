@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="espanol">Spanish</string>
+    <string name="estado_conexion_on">On line</string>
+    <string name="funcionalidades">Features</string>
+    <string name="idioma">Language</string>
+    <string name="inlges">English</string>
+    <string name="ayuda">Help</string>
+    <string name="directorio">Directory</string>
+    <string name="estudiante">Student</string>
+    <string name="horario">Schedule</string>
+    <string name="mapa">Map</string>
+    <string name="noticias">News</string>
+    <string name="objetos">Lost Objects</string>
+    <string name="pagina">Official Website</string>
+    <string name="sugerencias">Suggestions</string>
+    <string name="construccion">In Construction</string>
+</resources>
