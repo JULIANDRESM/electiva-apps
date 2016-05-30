@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "469537656099",
+    "project_id": "uniquindio-e948b"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469537656099:android:94b7f3341779b1c4",
+        "android_client_info": {
+          "package_name": "com.jammsoft.proyectofinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7zUvyUslpf-pSNmIQIzLewIR-Bu9sHvI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

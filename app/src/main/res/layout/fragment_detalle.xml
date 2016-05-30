@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Detalle de la noticia"
+        android:text="Numero de telefono y extensió n"
         android:textSize="30dp"
         android:gravity="center_vertical|center_horizontal" />
 
