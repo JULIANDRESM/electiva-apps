@@ -9,9 +9,7 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.co.notification.permission.C2D_MESSAGE" />
-
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-
 
     <application
         android:allowBackup="true"
@@ -20,10 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".Lenguaje">
+        <activity android:name=".Principal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -31,7 +28,7 @@
         <receiver
             android:name="com.google.android.gms.gcm.GcmReceiver"
             android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND" >
+            android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
@@ -40,20 +37,20 @@
         </receiver>
 
         <service
-            android:name="com.jammsoft.proyectofinal.TokenRefreshListenerService"
+            android:name=".TokenRefreshListenerService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.gms.iid.InstanceID" />
             </intent-filter>
         </service>
-
         <service
-            android:name="com.jammsoft.proyectofinal.NotificationsListenerService"
-            android:exported="false" >
+            android:name=".NotificationsListenerService"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
+
         <activity android:name=".Inicio" />
         <activity android:name=".Directorio" />
         <activity android:name=".Noticias" />
@@ -63,7 +60,8 @@
         <activity android:name=".Horario" />
         <activity android:name=".MapaCampus" />
         <activity android:name=".Ayuda" />
-        <activity android:name=".ObjetosPerdidos"></activity>
+        <activity android:name=".ObjetosPerdidos" />
+        <activity android:name=".Lenguaje"></activity>
     </application>
 
 </manifest>
